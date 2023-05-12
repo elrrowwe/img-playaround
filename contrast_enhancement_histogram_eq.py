@@ -49,12 +49,12 @@ def t_func(img) -> list:
 def histeq(inpimg, show_plots: bool) -> Image:
     """
     the histogram equalization function itself
-    returns the image, enhanced
     the user can choose to plot the before, after histogram and cdf
+    returns the image, enhanced
     """
+    inpimg = np.asarray(inpimg)
     outimg = np.empty((inpimg.shape[0], inpimg.shape[1]))
     T = t_func(inpimg)
-    # inpimg = np.asarray(inpimg)
 
     for i,row in enumerate(inpimg):
         for j,pixel in enumerate(row):   

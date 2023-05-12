@@ -226,8 +226,6 @@ def canny_detection(img, show: bool) -> np.ndarray:
         edges = Image.fromarray(edges)
         edges.show()
 
-img = Image.open('politechnikalodzka.png')
-canny_detection(img, show=True)
 
 
 

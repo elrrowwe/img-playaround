@@ -159,7 +159,7 @@ def adaptive_thresholding(grad: np.ndarray) -> np.ndarray:
     N = grad.shape[0]
     M = grad.shape[1]
     NEIGHBOURS = 8 
-    COT = 15 #cot - Constant Of Thresholding
+    COT = 10 #cot - Constant Of Thresholding
 
     for l in range(N):
         for k in range(M):
@@ -226,8 +226,9 @@ def canny_detection(img, show: bool) -> np.ndarray:
         edges = Image.fromarray(edges)
         edges.show()
 
-img = Image.open('politechnikalodzka.png')
+img = Image.open('nat.jpg')
 canny_detection(img, show=True)
+
 
 
 

@@ -10,8 +10,8 @@ The function does a reasonably good job in detecting edges in non incredibly noi
 Before edge detection:
 
 
-![politechnikalodzka](https://github.com/elrrowwe/img-playaround/assets/116558151/074c2370-aea2-4495-a1c3-6d6dc1cbcfa1)
+![politechnikalodzka](assets/politechnikalodzka.png)
 
 After edge detection: 
 
-<img width="930" alt="edges_pl" src="https://github.com/elrrowwe/img-playaround/assets/116558151/7ca8fde6-a56f-400f-8982-3692ea7fb8dd">
+![edges](assets/edges_pl.png)
